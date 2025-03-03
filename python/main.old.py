@@ -79,7 +79,7 @@ def collect_celestial_data(location, when):
     observer = wgs84.latlon(latitude_degrees=lat, longitude_degrees=long).at(t)
 
     # define the position in the sky where we will be looking
-    position = observer.from_altaz(alt_degrees=90, az_degrees=0)
+    position = observer.from_altaz(alt_degrees=25, az_degrees=0)
     # center the observation point in the middle of the sky
     ra, dec, distance = position.radec()
     center_object = Star(ra=ra, dec=dec)

@@ -4,18 +4,19 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-skyfield = "*"
-tzwhere = "*"
 geopy = "*"
-numpy = "*"
+timezonefinder = "*"
 pytz = "*"
 matplotlib = "*"
+skyfield = "*"
+mw-plot = "*"
+plotly = "*"
+dash = "*"
+plotly-express = "*"
 pandas = "*"
-install = "*"
-timezonefinder = "*"
+starplot = "*"
 
 [dev-packages]
-pylint = "*"
 
 [requires]
-python_version = "3.8"
+python_version = "3.12"
